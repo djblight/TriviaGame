@@ -3,8 +3,6 @@ $("#start").on("click",function(){
     $("#subwrapper".append("<h2>" +question[i].question+ "</h2>"));
     for(var j=0;j<questions[i].answers.length;j++){
       $("#subwrapper").append("input type='radio' name='question-"+i+"' value'"+questions[i]+"'>"+questions[i].answers[j]);
-      var audiohpottermusic = document.getElementById("hpottermusic");
-      audiohpottermusic.play();
     }
   }
 })
