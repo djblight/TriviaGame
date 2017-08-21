@@ -1,0 +1,52 @@
+
+
+body {
+	width: auto;
+	height: auto; 
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Hogwarts_-_Wizarding_World_of_Harry_Potter_-_Hollywood.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+	font-size: 60px;
+	text-align: center;
+	background: #8b0000;
+	margin-top: 0px;
+	padding-top: 10px;
+	height: 80px;
+	color: #ffffff;
+}
+
+div#test{
+	font-size: 20px;
+	border: #000 4px solid;
+	padding: 10px 20px 40px 30px;
+	width: 340px;
+	text-align: left;
+	margin-top: 80px;
+	margin-left: 590px;
+  	background: #ffd700;	
+}
+
+.container {
+	width: 400px
+	height: 400px;
+}
+
+footer {
+	font: 20px;
+	text-align: center;
+	padding-top: 30px;
+	margin-top: 160px;
+	background: #8b0000;
+	height: 50px;
+	color: #ffffff;
+}
+
+h2#test_status {
+	font-size: 40px;
+	text-align: center;
+	margin-top: 100px;
+}
+
